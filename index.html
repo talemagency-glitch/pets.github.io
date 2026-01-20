@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KidsAI - Teaching kids engineering and AI with gamified, interactive learning. Join tomorrow's engineers today.">
+    <meta name="keywords" content="kids education, AI learning, engineering for kids, STEM education">
+    <title>KidsAI - Teaching Kids Engineering & AI</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <span class="logo-icon">⚙️</span>
+                    <span class="logo-text">KidsAI</span>
+                </div>
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="features.html" class="nav-link">Features</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="about.html#contact" class="nav-link cta-btn">Get Started</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <!-- 3D Canvas will be injected here -->
+            <canvas id="hero-canvas"></canvas>
+        </div>
+        
+        <div class="hero-content container">
+            <div class="hero-text">
+                <h1 class="hero-title">Tomorrow's Engineers, Today</h1>
+                <p class="hero-subtitle">
+                    Unlock your child's potential with AI-powered engineering and coding education. 
+                    Interactive, gamified, and incredibly fun.
+                </p>
+                <div class="hero-ctas">
+                    <a href="about.html#contact" class="btn btn-primary">Join Waitlist</a>
+                    <a href="features.html" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <strong>Launching soon — Join the waitlist</strong>
+                        <span>Get early access</span>
+                    </div>
+                    <div class="stat">
+                        <strong>Egypt</strong>
+                        <span>Team Location</span>
+                    </div>
+                    <div class="stat">
+                        <strong>Curriculum</strong>
+                        <span>In development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M12 5v14M5 12l7 7 7-7"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- BENEFITS SECTION -->
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">Why KidsAI?</h2>
+            
+            <div class="benefits-grid">
+                <!-- Benefit Card 1 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">🤖</div>
+                    <h3>AI-Powered Learning</h3>
+                    <p>Personalized learning paths that adapt to your child's pace and learning style.</p>
+                </div>
+
+                <!-- Benefit Card 2 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎮</div>
+                    <h3>Gamified Experience</h3>
+                    <p>Earn badges, unlock achievements, and climb the leaderboard while learning.</p>
+                </div>
+
+                <!-- Benefit Card 3 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">👨‍💻</div>
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from industry professionals with 10+ years of experience in tech.</p>
+                </div>
+
+                <!-- Benefit Card 4 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">🏆</div>
+                    <h3>Real Projects</h3>
+                    <p>Build real products, apps, and robots. Portfolio-ready from day one.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED COURSES SECTION -->
+    <section class="featured-courses">
+        <div class="container">
+            <h2 class="section-title">Featured Courses</h2>
+            
+            <div class="courses-grid">
+                <!-- Course 1 -->
+                <div class="course-card">
+                    <div class="course-image" style="background: linear-gradient(135deg, #0066FF, #00D9FF);">
+                        <span class="course-level">Beginner</span>
+                    </div>
+                    <h3>Python Basics for Kids</h3>
+                    <p>Learn programming fundamentals with Python, the world's most kid-friendly language.</p>
+                    <div class="course-meta">
+                        <span>8 weeks</span>
+                        <span>40+ lessons</span>
+                    </div>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="course-card">
+                    <div class="course-image" style="background: linear-gradient(135deg, #FF6B35, #FFB84D);">
+                        <span class="course-level">Intermediate</span>
+                    </div>
+                    <h3>Robotics & Engineering</h3>
+                    <p>Design and build robots. Control them with code. Learn mechanics and physics hands-on.</p>
+                    <div class="course-meta">
+                        <span>10 weeks</span>
+                        <span>15 projects</span>
+                    </div>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="course-card">
+                    <div class="course-image" style="background: linear-gradient(135deg, #00D9FF, #00C853);">
+                        <span class="course-level">Advanced</span>
+                    </div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Discover artificial intelligence, train neural networks, and build smart applications.</p>
+                    <div class="course-meta">
+                        <span>12 weeks</span>
+                        <span>20 projects</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <a href="features.html" class="btn btn-primary">View All Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Parents Say</h2>
+            
+                <div class="testimonials-grid">
+                <!-- Testimonials (coming soon) -->
+                <div class="testimonial-card">
+                    <div class="stars">⭐</div>
+                    <p>Testimonials will appear after we launch. Join the waitlist to be an early participant and share feedback.</p>
+                    <div class="testimonial-author">
+                        <strong>KidsAI Team</strong>
+                        <span>Based in Egypt</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to Code the Future?</h2>
+            <p>We are based in Egypt and launching soon — join the waitlist to get early access.</p>
+            <a href="about.html#contact" class="btn btn-primary btn-large">Join Waitlist</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>KidsAI</h4>
+                    <p>Teaching kids engineering and AI for a smarter tomorrow.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Twitter</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 KidsAI. All rights reserved. | Made with ❤️ for young engineers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <script src="3d.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
